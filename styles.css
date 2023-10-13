@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	grid-template-columns:repeat(4,20%)
+}
+button{
+	height:100px
+}
+const btn1=document.getElementById("cancel");
+btn1.addEventListener("click",()=>{
+	document.getElementById("result").innerText="";
+})
