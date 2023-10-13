@@ -1,5 +1,17 @@
 /*  your css code here. If applicable */
+.main{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#equal{
+	background-color:blue;
+	color:white;
+}
+#result{
+	margin-right:0px;
+	padding:20px
+}
 .container{
+	padding:20px;
 	display:grid;
 	grid-template-columns:repeat(4,20%)
 }
